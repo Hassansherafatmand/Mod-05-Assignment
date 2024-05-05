@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1 {
+  color: #e70716;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #e43540;
+}
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+.oc h2.title{
+  font-size: 22px;
+  color: #eee;
+  background-color:#e43540; ;
+  margin-top: 20px;
+  padding: 5px;
+}
+/* blog previews / list */
+.course-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+.course-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+.course-preview h2 {
+  font-size: 20px;
+  color: #e43540;
+  margin-bottom: 8px;
+}
